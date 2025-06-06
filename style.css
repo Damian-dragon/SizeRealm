@@ -1,0 +1,17 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0ff;
+    padding: 20px;
+}
+
+.object-container {
+    margin: 20px 0;
+}
+
+.growable {
+    width: 100px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}

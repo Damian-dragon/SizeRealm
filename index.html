@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SizeRealm</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>SizeRealm</h1>
+    <div class="object-container">
+        <img id="tree" src="assets/tree.png" alt="Tree" class="growable">
+        <p id="treeSize">Size: 1.0m</p>
+        <input type="range" id="treeSpeed" min="0.1" max="5" step="0.1" value="1">
+    </div>
+
+    <div class="object-container">
+        <img id="flower" src="assets/flower.png" alt="Flower" class="growable">
+        <p id="flowerSize">Size: 0.5m</p>
+        <input type="range" id="flowerSpeed" min="0.1" max="5" step="0.1" value="1">
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
